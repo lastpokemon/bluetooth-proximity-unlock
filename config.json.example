@@ -1,0 +1,9 @@
+{
+  "phone_mac": "XX:XX:XX:XX:XX:XX",
+  "lq_threshold": 245,
+  "cooldown_seconds": 10,
+  "poll_interval_seconds": 1,
+  "enable_auto_lock": true,
+  "lock_delay_seconds": 6,
+  "enable_auto_unlock": true
+}

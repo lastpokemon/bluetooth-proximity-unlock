@@ -1,0 +1,12 @@
+[Unit]
+Description=Bluetooth Proximity Unlock Service
+After=bluetooth.target
+
+[Service]
+Type=simple
+ExecStart=%h/scripts/bt_unlock.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
