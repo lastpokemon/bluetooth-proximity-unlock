@@ -4,6 +4,7 @@ After=bluetooth.target
 
 [Service]
 Type=simple
+Environment=PYTHONUNBUFFERED=1
 ExecStart=%h/scripts/bt_unlock.py
 Restart=always
 RestartSec=5

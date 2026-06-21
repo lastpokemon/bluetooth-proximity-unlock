@@ -1,9 +1,16 @@
 {
   "phone_mac": "XX:XX:XX:XX:XX:XX",
+  "session_user": null,
+  "detection_mode": "presence",
   "lq_threshold": 245,
   "cooldown_seconds": 10,
   "poll_interval_seconds": 1,
   "enable_auto_lock": true,
   "lock_delay_seconds": 6,
-  "enable_auto_unlock": true
+  "enable_auto_unlock": true,
+  "maintain_connection": false,
+  "presence_probes": ["rfcomm", "name"],
+  "rfcomm_channel": 1,
+  "rfcomm_timeout_seconds": 1,
+  "reconnect_interval_seconds": 30
 }
